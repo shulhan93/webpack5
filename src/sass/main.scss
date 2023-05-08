@@ -1,0 +1,21 @@
+h1 {
+  background-color: yellow;
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    background-color: blue;
+  }
+}
+
+body {
+  background: url("../clayton-tonna-qINZ8zEYErY-unsplash.jpeg") center center /
+    100% no-repeat;
+  min-height: 100vh;
+}
+
+@media (max-width: 1200px) {
+  body {
+    min-height: 50vh;
+  }
+}

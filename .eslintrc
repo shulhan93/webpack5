@@ -1,0 +1,20 @@
+{
+  "parser": "@babel/eslint-parser",
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  // "extends": ["airbnb/base"],
+  "rules": {
+    "no-console": "off",
+    "no-plusplus": "off",
+    "semi": ["error", "always"],
+    "quotes": ["error", "single"],
+    "indent": ["error", 2],
+    "default-case": "off",
+    "no-restricted-syntax": "off",
+    "no-use-before-define": "off",
+    "no-mixed-operators": "off"
+  }
+}
