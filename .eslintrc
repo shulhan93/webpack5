@@ -1,20 +1,44 @@
+// for ts
+// {
+//   "root": true,
+//   "parser": "@typescript-eslint/parser",
+//   "plugins": ["@typescript-eslint"],
+//   "extends": [
+//     "eslint:recommended",
+//     "plugin:@typescript-eslint/eslint-recommended",
+//     "plugin:@typescript-eslint/recommended"
+//   ]
+// }
+
+//for hs
+// module.exports = {
+//   env: {
+//     browser: true,
+//     es2021: true,
+//   },
+//   extends: "eslint:recommended",
+//   parserOptions: {
+//     ecmaVersion: "latest",
+//     sourceType: "module",
+//   },
+// };
+
 {
-  "parser": "@babel/eslint-parser",
-  "env": {
-    "browser": true,
-    "es2021": true,
-    "node": true
+  "extends": ["airbnb-base", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": "latest"
   },
-  // "extends": ["airbnb/base"],
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
   "rules": {
-    "no-console": "off",
-    "no-plusplus": "off",
-    "semi": ["error", "always"],
-    "quotes": ["error", "single"],
-    "indent": ["error", 2],
-    "default-case": "off",
-    "no-restricted-syntax": "off",
-    "no-use-before-define": "off",
-    "no-mixed-operators": "off"
+    "no-console": "off"
+    // "comma-dangle": "off",
+    // "no-unused-expressions": "off",
+    // "arrow-body-style": "off",
+    // "import/prefer-default-export": "off",
+    //"object-curly-newline": "off"
   }
 }
